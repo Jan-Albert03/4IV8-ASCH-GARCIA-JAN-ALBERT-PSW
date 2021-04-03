@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problema 7 de JavaScript</title>
+    <script src="./js/problema7.js"></script>
+</head>
+<body bgcolor="#d0d3d4">
+    <header>
+        <img src="./multimedia/imagenes/Problema 7.jpg"
+    </header>
+    <main>
+        <form name="formulario" method="GET" action="problema7.html">
+            <fieldset>
+            <legend><h1>Calculadora de interes</h1></legend>
+            <h2>Pirmer numero</h2>
+            <input type="text" name="Num1" onkeypress="return validarn(event)">
+            <h2>Segundo numero</h2>
+            <input type="text" name="Num2" onkeypress="return validarn(event)">
+            <br>
+            <br>
+            <input type="button" value="Ejecutar" name="enviar" onclick="cal()">
+            <h2>Valor final:</h2>
+            <input type="text" name="resultadoM" id="cantidadti" readonly="readonly" class="input_text">
+        </fieldset>
+    </form> 
+    </main>
+    <footer>
+        <br>
+        <form method="get" action="./index.html"><button type="submit">Regresar al menu</button></form>
+    </footer>
+</body>
+</html>

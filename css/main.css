@@ -1,0 +1,31 @@
+header {
+    text-align: center;
+    
+}
+
+body {
+    background-image: url(../multimedia/imagenes/javascriptlogo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+button {
+    width: 100px;
+    height: 100px;
+}
+
+footer {
+    border: #d0d3d4 5px solid;
+    margin-top: 30%;
+    display: flex;
+    width: 15%;
+    justify-content: start;
+
+}

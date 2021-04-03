@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problema 2 de JavaScript</title>
+    <script src="./js/problema2.js"></script>
+</head>
+<body bgcolor="#d0d3d4">
+    <header>
+        <img src="./multimedia/imagenes/Problema 2.jpg"
+    </header>
+    <main>
+        <form name="formulario" method="GET" action="problema2.html">
+            <fieldset>
+            <legend><h1>Calcular Sueldo</h1></legend>
+            <h2>Introduce tu sueldo base</h2>
+            <input type="text" name="sueldo" onkeypress="return validarn(event)">
+            <h2>Numero de ventas realizadas este mes</h2>
+            <input type="text" name="ventas" onkeypress="return validarn(event)">
+            <br>
+            <br>
+            <input type="button" value="Calcular" name="enviar" onclick="comision()">
+            <h2>Comisiones:</h2>
+            <input type="text" name="comisiones" id="cantidadti" readonly="readonly" class="input_text">
+            <h2>Sueldo neto:</h2>
+            <input type="text" name="sueldom" id="cantidadti" readonly="readonly" class="input_text">
+    </form>  
+    </main>
+    <footer>
+        <br>
+        <form method="get" action="./index.html"><button type="submit">Regresar al menu</button></form>
+    </footer>
+</body>
+</html>

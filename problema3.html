@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problema 3 de JavaScript</title>
+    <script src="./js/problema3.js"></script>
+</head>
+<body bgcolor="#d0d3d4">
+    <header>
+        <img src="./multimedia/imagenes/Problema 3.jpg"
+    </header>
+    <main>
+        <form name="formulario" method="GET" action="problema3.html">
+            <fieldset>
+            <legend><h1>Descuento y total a pagar</h1></legend>
+            <h2>Introduce el monto de tu compra</h2>
+            <input type="text" name="compra" onkeypress="return validarn(event)">
+            <br>
+            <br>
+            <input type="button" value="Calcular total a pagar" name="enviar" onclick="descuento()">
+            <h2>Total a pagar:</h2>
+            <input type="text" name="total" id="cantidadti" readonly="readonly" class="input_text">
+        </fieldset>
+    </form> 
+    </main>
+    <footer>
+        <br>
+        <form method="get" action="./index.html"><button type="submit">Regresar al menu</button></form>
+    </footer>
+</body>
+</html>

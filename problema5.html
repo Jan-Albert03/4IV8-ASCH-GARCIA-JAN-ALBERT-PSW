@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problema 5 de JavaScript</title>
+    <script src="./js/problema5.js"></script>
+</head>
+<body bgcolor="#d0d3d4">
+    <header>
+        <img src="./multimedia/imagenes/Problema 5.jpg"
+    </header>
+    <main>
+        <form name="formulario" method="GET" action="problema5.html">
+            <fieldset>
+            <legend><h1>Porcentaje de un grupo de hombres y mujeres</h1></legend>
+            <h2>Poblacion total</h2>
+            <input type="text" name="poblacion" onkeypress="return validarn(event)">
+            <h2>Numero de mujeres</h2>
+            <input type="text" name="Mu" onkeypress="return validarn(event)">
+            <h2>Numero de hombres</h2>
+            <input type="text" name="Ho" onkeypress="return validarn(event)">
+            <br>
+            <br>
+            <input type="button" value="Obtener porcentaje" name="enviar" onclick="calcular()">
+            <h2>Porcentaje de mujeres:</h2>
+            <input type="text" name="Cmujeres" id="cantidadti" readonly="readonly" class="input_text">
+            <h2>Porcentaje de hombres:</h2>
+            <input type="text" name="Chombres" id="cantidadti" readonly="readonly" class="input_text">
+        </fieldset>
+    </form> 
+    </main>
+    <footer>
+        <br>
+        <form method="get" action="./index.html"><button type="submit">Regresar al menu</button></form>
+    </footer>
+</body>
+</html>
